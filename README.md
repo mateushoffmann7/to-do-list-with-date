@@ -12,4 +12,4 @@ Tecnologias Utilizadas HTML: Estrutura básica da página.
 
 CSS: Estilização para uma interface amigável.
 
-Como Usar: Basta clicar no link do meu deploy: 
+Como Usar: Basta clicar no link do meu deploy: to-do-list-with-date.vercel.app
