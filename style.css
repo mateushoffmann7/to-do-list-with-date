@@ -1,0 +1,36 @@
+.body {
+        background-color: whitesmoke;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+h1 {
+        border: solid 5px;
+        padding: 5px;
+        border-radius: 1rem;   
+        color: green;
+    }
+h2 {
+        color: black;
+    }
+p {
+        color: blue;
+    }
+body {
+        font-family: sans-serif;
+        font-weight: bold;
+        align-content: center;
+    }
+
+.modified {
+    background-color: red;
+}
+
+.color {
+    color: pink;
+}
+
+.red {
+    color: red;
+}

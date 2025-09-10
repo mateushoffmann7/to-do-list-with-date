@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO LIST | WITH DATE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="geral">
+      <div class="container">
+        <div class="title">
+          <div class="title-text">TO-DO LIST</div>
+          <div class="bar"></div>
+        </div>
+        <div class="input-button">
+          <div class="inputs">
+            <input
+              type="text"
+              name="tarefa"
+              class="input-text"
+              placeholder="Digite Sua Tarefa"
+              maxlength="200"
+            />
+            <input
+              type="date"
+              name="tarefa"
+              class="input-date"
+              maxlength="200"
+            />
+          </div>
+          <div class="buttons">
+            <button class="button-add">Adicionar</button>
+            <button class="button-del">Limpar</button>
+          </div>
+        </div>
+        <div class="list">
+          <div class="h1-bar">
+            <h1>Tarefas</h1>
+            <div class="bar-h1"></div>
+          </div>
+          <ul></ul>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </section>
+  </body>
+</html>
