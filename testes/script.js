@@ -26,7 +26,7 @@ buttonAdd.addEventListener("click", handleButtonAddText);
 
 //inputs
 const handleKeyUp = (e) => {
-  if ((e.key === "Enter" && inputText.value !== "", inputDate.value !== "")) {
+  if ((e.key === "Enter" && inputText.value !== "" && inputDate.value !== "")) {
     const newLi = document.createElement("li");
     const newLiDate = document.createElement("li");
     newLi.classList.add("newLi");
